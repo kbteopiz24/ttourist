@@ -98,9 +98,9 @@ export default function ChatInterface() {
         {messages.length === 0 && (
           <div className="chat-empty-state">
             <Bot />
-            <h2>Welcome to Nature Assistant</h2>
+            <h2>Welcome to T-Tourist</h2>
             <p>
-              Ask me anything! I'm here to help you discover and learn about nature, 
+              Ask me anything about travel! I'm here to help you plan your perfect trip, 
               powered by Flowise with RAG capabilities to provide accurate and contextual responses.
             </p>
           </div>
@@ -176,7 +176,7 @@ export default function ChatInterface() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyPress={handleKeyPress}
-            placeholder="Ask me about nature..."
+            placeholder="Ask me about travel..."
             disabled={isLoading}
             className="chat-input"
           />

@@ -7,9 +7,9 @@ export default function Home() {
     <main className="main-container">
       <div className="container">
         <div className="page-header">
-          <h1 className="page-title">Nature Assistant</h1>
+          <h1 className="page-title">T-Tourist</h1>
           <p className="page-subtitle">
-            Discover the wonders of nature with AI-powered insights
+            Your AI travel companion powered by Flowise
           </p>
         </div>
         <ChatInterface />

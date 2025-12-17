@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Nature Assistant - Discover the Wonders of Nature',
-  description: 'AI-powered nature assistant with RAG capabilities powered by Flowise',
+  title: 'T-Tourist - Your AI Travel Companion',
+  description: 'AI-powered travel assistant with RAG capabilities powered by Flowise',
 }
 
 export default function RootLayout({
